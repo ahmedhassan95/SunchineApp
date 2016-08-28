@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "618616476536",
+    "firebase_url": "https://eventhandler-3ea20.firebaseio.com",
+    "project_id": "eventhandler-3ea20",
+    "storage_bucket": "eventhandler-3ea20.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618616476536:android:cd59e0d07875eb9a",
+        "android_client_info": {
+          "package_name": "com.ibm.eventhandler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618616476536-evt6kkhocs2iun47uofq91p9j739feoi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwa69BjKmBdzKNoJ_i9CPcluUIDjHjDUQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
