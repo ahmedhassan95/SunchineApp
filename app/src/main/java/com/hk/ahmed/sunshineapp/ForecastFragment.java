@@ -27,7 +27,9 @@ import java.util.ArrayList;
  */
 public class ForecastFragment extends Fragment {
 
-    public static ArrayAdapter<String> mForecastAdapter;
+    //public static ArrayAdapter<String> mForecastAdapter;
+    private ArrayAdapter<String> mForecastAdapter;
+
     public ForecastFragment() {
     }
 
