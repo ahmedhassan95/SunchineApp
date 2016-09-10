@@ -20,6 +20,8 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
+
         </activity>
 
         <!--
@@ -49,6 +51,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="MainActivity" />
         </activity>
+
+        <provider
+            android:authorities="com.hk.ahmed.sunshineapp"
+            android:name=".data.WeatherProvider" />
     </application>
 
 </manifest>
