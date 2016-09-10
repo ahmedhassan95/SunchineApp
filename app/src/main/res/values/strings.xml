@@ -30,5 +30,8 @@
     </string-array>
 
     <string name="pref_default_temp_unit">metric</string>
+    <string name="pref_units_key">units</string>
+    <string name="pref_units_metric">metric</string>
+    <string name="pref_units_imperial">imperial</string>
 
 </resources>

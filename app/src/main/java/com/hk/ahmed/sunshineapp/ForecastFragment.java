@@ -1,6 +1,5 @@
 package com.hk.ahmed.sunshineapp;
 
-import android.app.ProgressDialog;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
@@ -52,7 +51,7 @@ public class ForecastFragment extends Fragment {
 
     public void refreshData ()
     {
-        FetchWeatherTask fetchWeatherTask = new FetchWeatherTask();
+        FetchWeatherTask fetchWeatherTask = new FetchWeatherTask(getActivity(),mForecastAdapter);
         String location = getLocation();
         String unit = getTempUnit();
 
